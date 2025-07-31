@@ -69,6 +69,6 @@ jobs:
         uses: skills/action-update-step@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 1
-          to_step: 2
+          from_step: 2
+          to_step: 1
           branch_name: aprendiendo-github-actions
